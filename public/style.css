@@ -1,0 +1,59 @@
+.main{
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    box-shadow: 5px  5px 7px 5px #09090988;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.main h1{
+    font-size: 36px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.container {
+    margin-top: 50px;
+    margin-left: 500px;
+}
+
+input{
+    font-family: 'Courier New', Courier, monospace, Helvetica, sans-serif;
+    width: 100%;
+    font-size: 20px;
+    padding: 12px 20px;
+    margin: 8px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+input[type=submit]{
+    font-family: 'Courier New', Courier, monospace, Helvetica, sans-serif;
+    width: 100%;
+    font-weight: 300;
+    font-style: oblique;
+    background-color: #e27945;
+    border:none;
+    color: rgb(11, 11, 11);
+    padding: 16px 32px;
+    margin: 4px 2px;
+    border-radius: 20px;
+    
+}
+
+input[type=submit]:hover {
+    background-color: rgba(216, 66, 66, 0.268);
+    transition: all 1s ease-out;
+}
+
+.col-md-6 main > h2 {
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+}
+
+.sign_succ {
+    align-items: center;
+}
